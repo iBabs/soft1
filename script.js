@@ -43,9 +43,9 @@ console.log("up is now:", up)
 //     alert("Baba please don't cry")
 // }
 
-const password = prompt("enter pin")
+// const password = prompt("enter pin")
 
-let balance = 5000
+// let balance = 5000
 
 // const withdrawal = parseInt(prompt("How much would you like to withdraw"))
 
@@ -55,14 +55,24 @@ let balance = 5000
 //     alert("you broke die o lmao! or you sabi your pin again")
 // }
 
-if(password=="1234"){
-    alert("welcome to wayo bank")
-    const withdrawal = parseInt(prompt("How much would you like to withdraw"))
-    if(balance>=withdrawal){
-        alert('You have successfully withdrawn '+ withdrawal+"\n Your new balance is " + (balance-withdrawal))
-        } else{
-            alert("you broke die o lmao! or you sabi your pin again")
-        }
+// if(password=="1234"){
+//     alert("welcome to wayo bank")
+//     const withdrawal = parseInt(prompt("How much would you like to withdraw"))
+//     if(balance>=withdrawal){
+//         alert('You have successfully withdrawn '+ withdrawal+"\n Your new balance is " + (balance-withdrawal))
+//         } else{
+//             alert("you broke die o lmao! or you sabi your pin again")
+//         }
+// }else{
+//     alert("you nio sabi password abi you wan tif")
+// }
+
+let num = parseInt(prompt('Enter a number'))
+
+
+if(num %2===0){
+    alert(num+ " is even")
 }else{
-    alert("you nio sabi password abi you wan tif")
+    alert(num + " is odd")
 }
+
